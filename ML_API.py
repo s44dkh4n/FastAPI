@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from schema.userinput import UserInfo
-from model.predict import predict_output,model,MODEL_VERSION
+from model.predict import predict_output, model, MODEL_VERSION
 
 app = FastAPI()
 
